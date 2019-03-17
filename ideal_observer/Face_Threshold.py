@@ -95,6 +95,45 @@ sad_array = np.array(sad_face) / 255 - 0.5
 globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
 
+# --------Prepare to start Instructions --------
+if expInfo['participant'] != 'ideal' :
+    l_face = visual.ImageStim(win, happy_face, pos=(-.25, .1))
+    r_face = visual.ImageStim(win, sad_face, pos=(.25, .1))
+    l_face.setAutoDraw(True)
+    r_face.setAutoDraw(True)
+    l_response = visual.TextStim(win, text='q', pos=(-.25, -.1))
+    r_response = visual.TextStim(win, text='p', pos=(.25, -.1))
+    l_response.setAutoDraw(True)
+    r_response.setAutoDraw(True)
+    continue_text = visual.TextStim(win, text='Press spacebar to continue', 
+                                   pos=(0, -.4), height=.07)
+    continue_text.setAutoDraw(True)
+    
+    continueRoutine = True
+    while continueRoutine :
+        # get current time
+        t = trialClock.getTime()
+        theseKeys = event.getKeys(keyList=['space', 'esc'])
+        
+        # check for quit:
+        if "escape" in theseKeys:
+            endExpNow = True
+        if len(theseKeys) > 0:  # at least one key was pressed
+            continueRoutine = False
+                
+        # check for quit (typically the Esc key)
+        if endExpNow or event.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    l_face.setAutoDraw(False)
+    r_face.setAutoDraw(False)
+    l_response.setAutoDraw(False)
+    r_response.setAutoDraw(False)
+    continue_text.setAutoDraw(False)
+
 # --------Prepare to start Staircase "trials" --------
 # set up handler to look after next chosen value etc
 if expInfo['participant'] == 'ideal' :
