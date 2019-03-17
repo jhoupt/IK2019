@@ -1,0 +1,5 @@
+,Subject,Condition,Threshold,Efficiency
+0,x,Schematic,0.016,1.0
+1,ideal,Schematic,0.00038069958592132504,1.0
+2,ideal,Schematic,0.008156722153209261,1.0
+3,ideal,Real,0.00466731461538453,1.0

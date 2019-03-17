@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="3.0.4">
+  <Settings>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="color_mds" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$color1a" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-.25, .25)" valType="code"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$color2a" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(.25, .25)" valType="code"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <SliderComponent name="slider">
+        <Param name="color" updates="constant" val="LightGray" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="HelveticaBold" valType="str"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="granularity" updates="constant" val="0" valType="code"/>
+        <Param name="labels" updates="constant" val="" valType="list"/>
+        <Param name="name" updates="None" val="slider" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="code"/>
+        <Param name="size" updates="constant" val="(.8, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="styles" updates="constant" val="('rating',)" valType="fixedList"/>
+        <Param name="ticks" updates="constant" val="(1, 2, 3, 4, 5,6,7)" valType="list"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </SliderComponent>
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -.15)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="text" updates="constant" val="Most similar  -  Least Similar" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('color1', 'red'), ('color2', 'red'), ('color1a', 'red.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'red'), ('color2', 'orange'), ('color1a', 'red.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'red'), ('color2', 'yellow'), ('color1a', 'red.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'red'), ('color2', 'chartrueuse_green'), ('color1a', 'red.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'red'), ('color2', 'green'), ('color1a', 'red.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'red'), ('color2', 'spring_green'), ('color1a', 'red.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'red'), ('color2', 'cyan'), ('color1a', 'red.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'red'), ('color2', 'azure'), ('color1a', 'red.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'red'), ('color2', 'blue'), ('color1a', 'red.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'red'), ('color2', 'violet'), ('color1a', 'red.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'red'), ('color2', 'magenta'), ('color1a', 'red.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'red'), ('color2', 'rose'), ('color1a', 'red.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'orange'), ('color2', 'red'), ('color1a', 'orange.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'orange'), ('color2', 'orange'), ('color1a', 'orange.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'orange'), ('color2', 'yellow'), ('color1a', 'orange.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'orange'), ('color2', 'chartrueuse_green'), ('color1a', 'orange.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'orange'), ('color2', 'green'), ('color1a', 'orange.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'orange'), ('color2', 'spring_green'), ('color1a', 'orange.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'orange'), ('color2', 'cyan'), ('color1a', 'orange.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'orange'), ('color2', 'azure'), ('color1a', 'orange.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'orange'), ('color2', 'blue'), ('color1a', 'orange.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'orange'), ('color2', 'violet'), ('color1a', 'orange.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'orange'), ('color2', 'magenta'), ('color1a', 'orange.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'orange'), ('color2', 'rose'), ('color1a', 'orange.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'red'), ('color1a', 'yellow.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'orange'), ('color1a', 'yellow.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'yellow'), ('color1a', 'yellow.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'chartrueuse_green'), ('color1a', 'yellow.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'green'), ('color1a', 'yellow.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'spring_green'), ('color1a', 'yellow.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'cyan'), ('color1a', 'yellow.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'azure'), ('color1a', 'yellow.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'blue'), ('color1a', 'yellow.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'violet'), ('color1a', 'yellow.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'magenta'), ('color1a', 'yellow.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'yellow'), ('color2', 'rose'), ('color1a', 'yellow.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'red'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'orange'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'yellow'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'chartrueuse_green'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'green'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'spring_green'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'cyan'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'azure'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'blue'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'violet'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'magenta'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'chartrueuse_green'), ('color2', 'rose'), ('color1a', 'chartrueuse_green.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'green'), ('color2', 'red'), ('color1a', 'green.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'green'), ('color2', 'orange'), ('color1a', 'green.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'green'), ('color2', 'yellow'), ('color1a', 'green.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'green'), ('color2', 'chartrueuse_green'), ('color1a', 'green.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'green'), ('color2', 'green'), ('color1a', 'green.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'green'), ('color2', 'spring_green'), ('color1a', 'green.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'green'), ('color2', 'cyan'), ('color1a', 'green.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'green'), ('color2', 'azure'), ('color1a', 'green.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'green'), ('color2', 'blue'), ('color1a', 'green.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'green'), ('color2', 'violet'), ('color1a', 'green.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'green'), ('color2', 'magenta'), ('color1a', 'green.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'green'), ('color2', 'rose'), ('color1a', 'green.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'red'), ('color1a', 'spring_green.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'orange'), ('color1a', 'spring_green.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'yellow'), ('color1a', 'spring_green.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'chartrueuse_green'), ('color1a', 'spring_green.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'green'), ('color1a', 'spring_green.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'spring_green'), ('color1a', 'spring_green.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'cyan'), ('color1a', 'spring_green.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'azure'), ('color1a', 'spring_green.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'blue'), ('color1a', 'spring_green.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'violet'), ('color1a', 'spring_green.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'magenta'), ('color1a', 'spring_green.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'spring_green'), ('color2', 'rose'), ('color1a', 'spring_green.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'red'), ('color1a', 'cyan.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'orange'), ('color1a', 'cyan.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'yellow'), ('color1a', 'cyan.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'chartrueuse_green'), ('color1a', 'cyan.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'green'), ('color1a', 'cyan.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'spring_green'), ('color1a', 'cyan.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'cyan'), ('color1a', 'cyan.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'azure'), ('color1a', 'cyan.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'blue'), ('color1a', 'cyan.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'violet'), ('color1a', 'cyan.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'magenta'), ('color1a', 'cyan.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'cyan'), ('color2', 'rose'), ('color1a', 'cyan.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'azure'), ('color2', 'red'), ('color1a', 'azure.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'azure'), ('color2', 'orange'), ('color1a', 'azure.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'azure'), ('color2', 'yellow'), ('color1a', 'azure.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'azure'), ('color2', 'chartrueuse_green'), ('color1a', 'azure.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'azure'), ('color2', 'green'), ('color1a', 'azure.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'azure'), ('color2', 'spring_green'), ('color1a', 'azure.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'azure'), ('color2', 'cyan'), ('color1a', 'azure.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'azure'), ('color2', 'azure'), ('color1a', 'azure.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'azure'), ('color2', 'blue'), ('color1a', 'azure.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'azure'), ('color2', 'violet'), ('color1a', 'azure.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'azure'), ('color2', 'magenta'), ('color1a', 'azure.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'azure'), ('color2', 'rose'), ('color1a', 'azure.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'blue'), ('color2', 'red'), ('color1a', 'blue.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'blue'), ('color2', 'orange'), ('color1a', 'blue.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'blue'), ('color2', 'yellow'), ('color1a', 'blue.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'blue'), ('color2', 'chartrueuse_green'), ('color1a', 'blue.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'blue'), ('color2', 'green'), ('color1a', 'blue.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'blue'), ('color2', 'spring_green'), ('color1a', 'blue.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'blue'), ('color2', 'cyan'), ('color1a', 'blue.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'blue'), ('color2', 'azure'), ('color1a', 'blue.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'blue'), ('color2', 'blue'), ('color1a', 'blue.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'blue'), ('color2', 'violet'), ('color1a', 'blue.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'blue'), ('color2', 'magenta'), ('color1a', 'blue.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'blue'), ('color2', 'rose'), ('color1a', 'blue.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'violet'), ('color2', 'red'), ('color1a', 'violet.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'violet'), ('color2', 'orange'), ('color1a', 'violet.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'violet'), ('color2', 'yellow'), ('color1a', 'violet.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'violet'), ('color2', 'chartrueuse_green'), ('color1a', 'violet.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'violet'), ('color2', 'green'), ('color1a', 'violet.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'violet'), ('color2', 'spring_green'), ('color1a', 'violet.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'violet'), ('color2', 'cyan'), ('color1a', 'violet.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'violet'), ('color2', 'azure'), ('color1a', 'violet.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'violet'), ('color2', 'blue'), ('color1a', 'violet.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'violet'), ('color2', 'violet'), ('color1a', 'violet.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'violet'), ('color2', 'magenta'), ('color1a', 'violet.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'violet'), ('color2', 'rose'), ('color1a', 'violet.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'red'), ('color1a', 'magenta.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'orange'), ('color1a', 'magenta.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'yellow'), ('color1a', 'magenta.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'chartrueuse_green'), ('color1a', 'magenta.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'green'), ('color1a', 'magenta.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'spring_green'), ('color1a', 'magenta.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'cyan'), ('color1a', 'magenta.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'azure'), ('color1a', 'magenta.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'blue'), ('color1a', 'magenta.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'violet'), ('color1a', 'magenta.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'magenta'), ('color1a', 'magenta.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'magenta'), ('color2', 'rose'), ('color1a', 'magenta.png'), ('color2a', 'rose.png')]), OrderedDict([('color1', 'rose'), ('color2', 'red'), ('color1a', 'rose.png'), ('color2a', 'red.png')]), OrderedDict([('color1', 'rose'), ('color2', 'orange'), ('color1a', 'rose.png'), ('color2a', 'orange.png')]), OrderedDict([('color1', 'rose'), ('color2', 'yellow'), ('color1a', 'rose.png'), ('color2a', 'yellow.png')]), OrderedDict([('color1', 'rose'), ('color2', 'chartrueuse_green'), ('color1a', 'rose.png'), ('color2a', 'chartrueuse_green.png')]), OrderedDict([('color1', 'rose'), ('color2', 'green'), ('color1a', 'rose.png'), ('color2a', 'green.png')]), OrderedDict([('color1', 'rose'), ('color2', 'spring_green'), ('color1a', 'rose.png'), ('color2a', 'spring_green.png')]), OrderedDict([('color1', 'rose'), ('color2', 'cyan'), ('color1a', 'rose.png'), ('color2a', 'cyan.png')]), OrderedDict([('color1', 'rose'), ('color2', 'azure'), ('color1a', 'rose.png'), ('color2a', 'azure.png')]), OrderedDict([('color1', 'rose'), ('color2', 'blue'), ('color1a', 'rose.png'), ('color2a', 'blue.png')]), OrderedDict([('color1', 'rose'), ('color2', 'violet'), ('color1a', 'rose.png'), ('color2a', 'violet.png')]), OrderedDict([('color1', 'rose'), ('color2', 'magenta'), ('color1a', 'rose.png'), ('color2a', 'magenta.png')]), OrderedDict([('color1', 'rose'), ('color2', 'rose'), ('color1a', 'rose.png'), ('color2a', 'rose.png')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="AllColor.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
