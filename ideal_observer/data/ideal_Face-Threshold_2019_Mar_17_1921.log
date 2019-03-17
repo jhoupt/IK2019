@@ -1,0 +1,21 @@
+1.5118 	WARNING 	sounddevice audio lib was requested but not loaded: sounddevice not working
+9.3785 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+11.5619 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.5623 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x12a475c18>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1281c4a90>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.5623 	EXP 	window1: recordFrameIntervals = False
+11.7282 	EXP 	window1: recordFrameIntervals = True
+11.8111 	WARNING 	t of last frame was 20.61ms (=1/48)
+11.8609 	WARNING 	t of last frame was 20.19ms (=1/49)
+11.8949 	WARNING 	t of last frame was 21.02ms (=1/47)
+11.9617 	WARNING 	t of last frame was 21.25ms (=1/47)
+12.0112 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.3944 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.4026 	EXP 	Created fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=0.001, name='fixation_cross', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.5952 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=BmpImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.29222222, 0.29222222]), texRes=128, units='height', win=Window(...))
+22.7333 	EXP 	window1: mouseVisible = True
